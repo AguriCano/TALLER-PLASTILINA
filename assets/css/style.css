@@ -12,8 +12,8 @@
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
 
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
+    --second-color: rgb(30, 159, 171);
+    --third-color: rgb(17, 177, 189);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -500,8 +500,8 @@ textarea{
     background: var(--second-color);
     color: var(--color-white);
 }
-.form-button>.btn:hover{
-    background: #00B5E7;
+.form-button>.btn:hover{  
+    background: rgb(24, 91, 97);       /*color al hacer click*/
 }
 .form-button i{
     font-size: 18px;
@@ -512,7 +512,7 @@ textarea{
 
 .whatsapp-float {
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     width: 80px; /* Tamaño del botón */
     height: 80px;
@@ -539,8 +539,8 @@ textarea{
   }
 
   .whatsapp-float:hover i {
-    box-shadow: 0 0 25px 8px rgba(0, 255, 0, 0.9); /* Brillo verde neón con forma circular */
-    border-radius: 100%; /* Forma circular para el brillo */
+    box-shadow: 0 0 50px 8px rgba(0, 255, 0, 0.9); /* Brillo verde neón con forma circular */
+    border-radius: 50%; /* Forma circular para el brillo */
   }
 
 /* ----- FOOTER BOX ----- */
