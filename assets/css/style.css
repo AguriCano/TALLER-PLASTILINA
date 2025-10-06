@@ -532,10 +532,17 @@ textarea{
   }
 
   .whatsapp-float i {
-    font-size: 50px; /* Tamaño del ícono */
+    font-size: 50px;
     color: white;
-    transition: all 0.3s ease; /* Transición suave para el brillo */
-    z-index: 2; /* Asegura que el ícono esté encima del fondo */
+    transition: all 0.3s ease;
+    z-index: 2;
+    /* Añadimos esto para mantener el ícono cuadrado y circular */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Para que el ícono tenga forma circular */
   }
 
   .whatsapp-float:hover i {
